@@ -1,0 +1,22 @@
+# API Configuration
+API_MOCK_MODE=false
+
+# Database Configuration
+MONGODB_URI=mongodb://localhost:27017
+MONGODB_DATABASE=business_development
+
+# OpenAI Configuration
+OPENAI_API_KEY=your_openai_api_key_here
+
+# Twilio Configuration (for WhatsApp)
+TWILIO_ACCOUNT_SID=your_twilio_account_sid
+TWILIO_AUTH_TOKEN=your_twilio_auth_token
+TWILIO_WHATSAPP_NUMBER=whatsapp:+1234567890
+
+# MQTT Configuration
+MQTT_HOST=localhost
+MQTT_PORT=1883
+
+# API Server Configuration
+API_HOST=0.0.0.0
+API_PORT=8000
